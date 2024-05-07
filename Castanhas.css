@@ -1,0 +1,33 @@
+.cabecalho {
+    width:100%;
+    height: 175px;
+    background-color: brown;
+    text-align: center;
+    clear: both; /*só porque o roda pé ia precisar*/
+}
+
+.banner {
+    width:25%;
+    height:800px;
+    background-color:white;
+    text-align:center;
+    float: left;
+}
+
+.corpo {
+    width:50%;
+    height:800px;
+    background-color:sienna;
+    float: left;
+}
+
+.imagem {
+     width:80px;
+     height:80px
+}
+
+.p {
+    text-align:justify; 
+    margin-left: 50px; 
+    margin-right: 50px;
+}

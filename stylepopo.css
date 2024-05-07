@@ -1,0 +1,111 @@
+.carro {
+    width:600px;
+    height:200px;
+    background:url('carro.jpg');
+    background-size: 100%;
+    position:absolute;
+    animation-name: animacaoCarro;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animacaoCarro
+{
+    0% {left: 0px;}
+    50% {left: 500px;}
+    100% {left: 0px;}
+}
+
+.adeus {
+    position:absolute;
+    top:15px;
+    width:90px;
+    height:90px;
+    background: url('adeus.gif');
+    background-size: 100% 100%;
+    animation-name: animacaoAdeus;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes animacaoAdeus
+{
+    0% {left: 0px;}
+    100% {left: 0px;}
+}
+
+.roda {
+    position:absolute;
+    top:145px;
+    width:90px;
+    height:90px;
+    animation-name: animacaoRoda;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animacaoRoda
+{
+    0% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+.estrada {
+    z-index: -1;
+    position: absolute;
+    width: 250%;
+    top: 150px;
+    left: 0px;
+    background-color:black ;
+    height: 200px;
+}
+
+.marcas {
+    height: 0px;
+    width: 250%;
+    position: absolute;
+    left: -10%;
+    top: 60px;
+    border-top: 20px dashed yellow;
+    margin-top:45px;
+    animation: estradaMov 10s infinite linear;
+}
+
+
+@keyframes estradaMov
+{
+    0% {left: 0px;}
+    100% {left: -2400px;}
+}
+
+.ceu {
+
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: blue;
+    height: 200px;
+}
+
+.edificio1 {
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+    background:url("building.jpg");
+    background-size: 100% 100%;
+    animation: edificioMov 10s infinite linear;
+}
+
+@keyframes edificioMov
+{
+    0% {left: 1500px;}
+    100% {left: -200px;}
+}
+
+
